@@ -18,10 +18,10 @@ image.onload = function() {
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
         
         // Draw user's name
-        ctx.font = "30px Arial";
-        ctx.fillStyle = "black";
+        ctx.font = "30px Lato";
+        ctx.fillStyle = "White";
         ctx.textAlign = "center";
-        ctx.fillText(name, canvas.width / 2, canvas.height / 2.5);
+        ctx.fillText(name, canvas.width / 2, canvas.height / 2.3);
         
         // Show download button
         document.getElementById("downloadBtn").style.display = "block";
