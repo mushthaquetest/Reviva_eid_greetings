@@ -1,6 +1,6 @@
 // Preload the image
 var image = new Image();
-image.src = "greeting_image.jpeg";
+image.src = "greeting_image.jpg";
 image.onload = function() {
     // Once the image is loaded, initialize canvas and allow generating greetings
     var canvas = document.getElementById("greetingCanvas");
@@ -37,9 +37,9 @@ image.onload = function() {
 function downloadImage() {
     var canvas = document.getElementById("greetingCanvas");
     var link = document.createElement('a');
-    link.href = canvas.toDataURL("image/jpeg"); // Change to "image/jpeg" to maintain image format
+    link.href = canvas.toDataURL("image/jpg"); // Change to "image/jpeg" to maintain image format
     console.log(link);
-    link.download = 'Eid_Greeting.jpeg'; // Change the download filename and extension
+    link.download = 'Eid_Greeting.jpg'; // Change the download filename and extension
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
