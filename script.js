@@ -18,7 +18,7 @@ image.onload = function() {
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
         
         // Draw user's name
-        ctx.font = "30px Lato";
+        ctx.font = "270px Lato";
         ctx.fillStyle = "White";
         ctx.textAlign = "center";
         ctx.fillText(name, canvas.width / 2, canvas.height / 2.3);
