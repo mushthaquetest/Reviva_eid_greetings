@@ -1,6 +1,6 @@
 // Preload the image
 var image = new Image();
-image.src = "greeting_image.png";
+image.src = "greetingimage.png";
 image.onload = function() {
     // Once the image is loaded, initialize canvas and allow generating greetings
     var canvas = document.getElementById("greetingCanvas");
