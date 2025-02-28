@@ -7,7 +7,7 @@ image.onload = function() {
     var nameInput = document.getElementById("nameInput");
 
     // Load the font
-    var font = new FontFace('Gotham', 'url(GothamBook.ttf)');
+    var font = new FontFace('Roboto', 'url(Roboto-Medium.ttf)');
     font.load().then(function(loadedFont) {
         document.fonts.add(loadedFont);
 
@@ -22,10 +22,10 @@ image.onload = function() {
             ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
             // Draw user's name with Gotham font
-            ctx.font = "60px Gotham"; // Set font family and size
+            ctx.font = "60px Roboto"; // Set font family and size
             ctx.fillStyle = "white";
-            ctx.textAlign = "center";
-            ctx.fillText(name, canvas.width / 2, canvas.height / 2.3);
+            ctx.textAlign = "left";
+            ctx.fillText(name, canvas.width / 2.2, canvas.height/1.1);
 
             // Show download button
             document.getElementById("downloadBtn").style.display = "block";
