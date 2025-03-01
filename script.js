@@ -25,7 +25,7 @@ image.onload = function() {
             ctx.font = "60px Roboto"; // Set font family and size
             ctx.fillStyle = "white";
             ctx.textAlign = "left";
-            ctx.fillText(name, canvas.width / 2.2, canvas.height/1.1);
+            ctx.fillText(name, canvas.width / 2.2, canvas.height/1.38);
 
             // Show download button
             document.getElementById("downloadBtn").style.display = "block";
