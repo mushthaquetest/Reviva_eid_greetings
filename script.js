@@ -34,7 +34,7 @@ image.onload = function () {
             ctx.textAlign = "left";
 
             // Adjust text position dynamically
-            ctx.fillText(name, canvas.width / 2, canvas.height * 0.90);
+            ctx.fillText(name, canvas.width / 2.2, canvas.height * 0.92);
 
             // Show download button
             document.getElementById("downloadBtn").style.display = "block";
