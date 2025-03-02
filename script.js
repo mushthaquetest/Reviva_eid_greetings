@@ -1,5 +1,5 @@
 var image = new Image();
-image.src = "greetingimage.jpg";
+image.src = "greetingimage.png";
 image.onload = function () {
     var canvas = document.getElementById("greetingCanvas");
     var ctx = canvas.getContext("2d");
